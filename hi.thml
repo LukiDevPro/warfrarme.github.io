@@ -1,0 +1,16 @@
+import random
+
+prime_warframes = [
+    "Ash Prime", "Atlas Prime", "Banshee Prime", "Baruuk Prime", "Chroma Prime",
+    "Ember Prime", "Equinox Prime", "Excalibur Prime", "Frost Prime", "Gara Prime",
+    "Garuda Prime", "Harrow Prime", "Hydroid Prime", "Inaros Prime", "Ivara Prime",
+    "Khora Prime", "Lavos Prime", "Limbo Prime", "Loki Prime", "Mag Prime",
+    "Mesa Prime", "Mirage Prime", "Nekros Prime", "Nezha Prime", "Nidus Prime",
+    "Nova Prime", "Nyx Prime", "Oberon Prime", "Octavia Prime", "Protea Prime",
+    "Revenant Prime", "Rhino Prime", "Saryn Prime", "Sevagoth Prime", "Titania Prime",
+    "Trinity Prime", "Valkyr Prime", "Vauban Prime", "Volt Prime", "Wisp Prime",
+    "Wukong Prime", "Xaku Prime", "Yareli Prime", "Zephyr Prime"
+]
+
+zufälliger_prime = random.choice(prime_warframes)
+print("Zufälliger Prime-Warframe:", zufälliger_prime)
